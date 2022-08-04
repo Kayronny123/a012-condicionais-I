@@ -13,27 +13,20 @@
 // > 💡 Lembre-se de prestar atenção às letras maiúsculas e minúsculas. 
 
 let nacionalidade = [
-     'brasileiro',
-     'argentino' ,
-     'uruguaio',
-     'chileno',
-    'colombiano',
+     'brasileiro' , 'brasileira',
+     'argentino' , 'argentina',
+     'uruguaio', 'uruguaia',
+     'chileno', 'chilena',
+    'colombiano', 'colombiana',
 ];
-const pergunta = prompt ('Digite sua nacionalidade');
+const pergunta = prompt ('Digite sua nacionalidade').toLowerCase();
 
     if(nacionalidade.includes(pergunta)){
-     alert("Seja bem vindo " + pergunta)
+     alert("Seja bem vindo(a) " + pergunta)
     } else {
     alert('nacionalidade desconhecida')
     }
+    console.log('Seja bem vindo(a)', pergunta)
     
-     
-    // if (nacionalidade.includes (pergunta)) {
-    // } else if (nacionalidade.includes (pergunta)) {
-    // } else if (nacionalidade.includes (pergunta)) {
-    // } else if (nacionalidade.includes (pergunta)) { 
-    // } else if (nacionalidade.includes (pergunta + "")) {
-    // } else
-    //     alert('nacionalidade desconhecida')
 
     
