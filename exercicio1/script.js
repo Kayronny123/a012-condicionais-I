@@ -4,8 +4,8 @@
 
 const num = prompt ('Digite um número')
 
-if(num){
+if(num%2 === 0){
     console.log("Seu número é par")
-} else if (num % 2) {
-    console.log('dado invalido')
+} else {
+    console.log('o numero é impar')
 }
